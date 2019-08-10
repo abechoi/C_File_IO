@@ -31,6 +31,6 @@ int main(){
 	ans = visits / (float)age;
 	printf("%f\n", ans);
 
-
+	fclose(fp); // Added
 	return 0;
 }
